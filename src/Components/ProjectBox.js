@@ -46,11 +46,11 @@ const  ProjectBox = ({index, projectPhoto, projectName, projectDesc,projectGit,p
               </button> }
             <br />
 
-            <a style={{display:showgit}} href={projectGit} target='_blank'>
+            <a style={{display:showgit}} href={projectGit} target='_blank' rel="noreferrer" >
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            <a style={{display:showweb}} href={projectWeb} target='_blank'>
+            <a style={{display:showweb}} href={projectWeb} target='_blank' rel="noreferrer" >
               <button className='projectbtn'><CgFileDocument/> Demo</button>
             </a>
         </div>
